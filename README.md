@@ -13,7 +13,7 @@ left on the window, and we use Lo-Dash with Angular, in the normal dependency
 ## Installing
 Install via bower
 
-```bower install ng-lodash```
+```bower install wachri/ng-lodash```
 
 Require it into your application (after Angular)
 
@@ -32,6 +32,18 @@ var YourCtrl = app.controller('yourController', function($scope, lodash) {
   lodash.assign({ 'a': 1 }, { 'b': 2 }, { 'c': 3 });
 });
 ```
+
+## This is a fork
+from [rockabox/ng-lodash](https://github.com/rockabox/ng-lodash) with a downgraded lodash version.
+Categories include in this build:
+
+- array
+- lang
+- util
+
+More changes:
+
+- Removes the factory for AMD support which caused errors with the module in a requirejs build with r.js.
 
 ## Developing
 

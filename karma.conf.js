@@ -1,6 +1,7 @@
 module.exports = function (config) {
     config.set({
         files: [
+            'test/phantomjspolyfill/function.bind.js',
             'lib/angular/angular.js',
             'lib/angular-mocks/angular-mocks.js',
             'build/ng-lodash.js',
